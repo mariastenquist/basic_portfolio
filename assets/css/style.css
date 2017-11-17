@@ -1,122 +1,109 @@
-
 body {
   font-family: 'Georgia', Times, Times New Roman, serif;
   width: 100%;
-  /*height: 800px;*/
   background: url("../images/norwegian_rose.png");
   background-size: cover repeat;
 }
 *{
-  padding: 0px;
-  margin:0px;
+  padding: 0;
+  margin: 0;
 }
 
-/*.maindiv {
-  float: left;
-  clear: both;
-  display: block;
-
-}*/
 h2 {
   border-bottom-style: solid;
   border-bottom-color: lightgrey;
   padding: 20px;
   margin-bottom: 20px;
+  color: #4aaaa5;
 }
 
 #left_content {
-  /*float: left;
-  /*margin: 110px;*/
+  float: left;
+  margin-top: 25px;
+  margin-left: 340px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-opacity: 0.2;
   background-color: white;
-  /*border-style: dotted;*/
-  /*border-color: black;*/
-  /*padding: 30px;*/
-  /*max-width: 630px;*/
-  width: 50%;
+  font-size: 14px;
+  font-color: grey;
+  width: 650px;
 }
 .right_content {
-  /*display: inline-block;*/
-  /*position: relative;*/
+  margin-top: 25px;
+  background-color: white;
+  border: solid;
+  border-color: lightgrey;
   float: right;
-  /*clear: both;*/
-  /*max-width: 300px;*/
-  width: 10%;
-  /*clear: left;*/
-  
+  width: 270px;
+  padding-bottom: 30px;
+  margin-right: 340px;
 }
-#navigation ul {
-  width: 100%;
+
+.right_content a {
+  font-size: 80px;
+  position: relative;
+  text-align: center;
+  padding: 7px;
+  color: grey;
+}
+
+#navigation {
   height:100px;
   background: white;
   line-height: 85px;
   border-bottom-color: grey;
   border-bottom-style: solid;
-  margin: 0px;
-  /*color: blue;*/
+}
+#navigation ul {
+  margin-right: 325px;
 }
 #navigation ul a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
-  /*text-align: right;*/
   text-decoration: none;
   color: darkgrey;
-  /*padding: 0px;*/
-  margin-right: 40px;
-}
-#navigation ul li {
-  list-style-type: none;
-  display: inline-block;
-  float: right;
-  margin-right: 10px;
-  margin-left: 0px;
-  margin-top: 10px;
-}
-
-#menu {
-  margin-top: 0px;
-  margin-left: 20px;
-}
-
-#navigation h1 {
-  width: 200px;
-  background-color: #4aaaa5;
-  /*margin: 0, auto;*/
-  margin-top: 0px;
-  margin-left: 125px;
-  color: white;
-  float: left;
-  font-size: 24px;
-  text-align: center;
-  height: 100px;
-}
-
-#menu li {
-  margin: -10px;
 }
 
 #navigation li:not(:first-child):after {
   content: " | ";
   color: black;
   opacity: 0.4;
-  word-spacing: -1em;
+  margin-left: 15px;
 }
+
+#navigation ul li {
+  list-style-type: none;
+  /*align-items: center;*/
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+#navigation h1 {
+  width: 200px;
+  background-color: #4aaaa5;
+  margin-top: 0px;
+  margin-left: 340px;
+  color: white;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+  height: 100px;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+
 li a:hover {
   background-color: purple;
 }
+li a:visited {
+  background: orange;
+}
 
-/*#left_content, .about_me {
-  position: absolute;
-/*  float: left;
-  margin: 10px;*/
-/**/
-/*.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-  overflow: auto;
-
-}*/
-
+li a:active {
+  background: yellow;
+}
 .image {
   float: left;
   margin: 10px;
@@ -124,23 +111,21 @@ li a:hover {
   width: 250px;
 }
 
-/*.clearfix::after {
-  clear:both;
+.clearfix::after {
+  content: "";
   display: block;
-}*/
-/*.footer {
-  height: 75px;
+  clear:both;
+  /*overflow: auto;*/
+}
+.main-footer {
+  height: 100px;
+  line-height: 100px;
   background-color: grey;
   color:white;
   text-align: center;
-  /*padding: 20px;*/
-  /*margin: 20px;*/
-/*}*/
-/*.footer p {
-  padding-top: 25px;
-}*/
-/** {
-  padding: 0px;
-  margin: 0px;
+  font-size: 18px;
+  margin-top: 225px;
+  border-top: solid;
+  border-color: #4aaaa5;
+  border-width: 8px;
 }
-*/
