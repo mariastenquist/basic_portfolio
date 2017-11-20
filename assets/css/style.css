@@ -1,19 +1,23 @@
 body {
   font-family: 'Georgia', Times, Times New Roman, serif;
   width: 100%;
-  background: url("../images/norwegian_rose.png");
+  background: url("../images/use_your_illusion.png");
   background-size: cover repeat;
 }
 *{
   padding: 0;
   margin: 0;
 }
+.maindiv {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
 h2 {
   border-bottom-style: solid;
-  border-bottom-color: #cccccc;
+  border-bottom-color: #ccc;
   padding: 20px;
   margin-bottom: 20px;
-  color: #4aaaa5;
+  color: #4aaaa5;  
 }
 .contain {
   position: relative;
@@ -23,49 +27,51 @@ h2 {
   margin-top: 25px;
   margin-left: 340px;
   border-style: solid;
-  border-color: #cccccc;
-  border-opacity: 0.2;
+  border-color: #ddd;
   background-color: white;
   font-size: 14px;
-  font-color: grey;
   width: 650px;
   padding: 20px;
 }
 label {
-  color: #777777;
+  color: #777;
 }
 input {
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   height: 20px;
 }
 .form_container {
-  height: 300px;
+  height: 400px;
   font-size: 20px;
   margin-left: 20px;
 }
-#field_1 {
-  width: 610px;
-}
-#field_2 {
-  width: 610px;
-}
-#field_3{
+.field {
   width: 610px;
 }
 .right_content h2 {
   text-align: center;
 }
 .submit {
+  font-size: 18px;
   margin-top: 15px;
   padding: 15px;
   background-color: #4aaaa5;
   color: white;
 }
+button:hover {
+  background-color: thistle;
+}
+textarea {
+  height: 150px;
+  border-color: #ccc;
+  border-style: solid;
+}
 .right_content {
   margin-top: 25px;
   background-color: white;
   border: solid;
-  border-color: #cccccc;
+  border-color: #ddd;
   float: right;
   width: 270px;
   padding-bottom: 30px;
@@ -77,13 +83,13 @@ input {
   position: relative;
   text-align: center;
   padding: 7px;
-  color: grey;
+  color: grey;  
 }
 #navigation {
   height:100px;
   background: white;
   line-height: 85px;
-  border-bottom-color: #cccccc;
+  border-bottom-color: thistle;
   border-bottom-style: solid;
 }
 #navigation ul {
@@ -93,7 +99,7 @@ input {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
-  color: #777777;
+  color: #777;
 }
 #navigation li:not(:first-child):after {
   content: " | ";
@@ -119,15 +125,13 @@ input {
   height: 100px;
   text-transform: uppercase;
   line-height: 45px;
+  box-shadow: 3px 3px 3px 3px #ddd;
 }
 li a:hover {
-  background-color: purple;
-}
-li a:visited {
-  background: orange;
+  background-color: thistle;
 }
 li a:active {
-  background: yellow;
+  background: peru;
 }
 .image_1 {
   float: left;
@@ -160,9 +164,6 @@ li a:active {
   font-size: 18px;
   margin-top: 225px;
   border-top: solid;
-  border-color: #4aaaa5;
+  border-color: thistle;
   border-width: 8px;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
